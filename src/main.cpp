@@ -6,14 +6,14 @@
 // Create Bluetooth A2DP sink
 BluetoothA2DPSink a2dp_sink;
 
-// Define pin configurations for subwoofer (lower frequencies)
+// Define pin configurations for subwoofer (low frequencies)
 i2s_pin_config_t subwoofer_pin_config = {
     .bck_io_num = 26,  // Bit clock pin
     .ws_io_num = 25,   // Word select pin
     .data_out_num = 22 // Data output pin
 };
 
-// Define pin configurations for other frequencies (higher frequencies)
+// Define pin configurations for other frequencies (high frequencies)
 i2s_pin_config_t other_audio_pin_config = {
     .bck_io_num = 14,  // Bit clock pin
     .ws_io_num = 15,   // Word select pin
@@ -21,9 +21,9 @@ i2s_pin_config_t other_audio_pin_config = {
 };
 
 // Split frequency parameter
-int split_frequency = 200; // Default split frequency in Hz
+int split_frequency = 200; // Set split frequency in Hz
 
-// Function to process audio data and split into subwoofer and other streams
+// Process audio data and split into subwoofer and other streams
 void process_audio_data(const uint8_t *data, uint32_t length) {
     size_t bytes_written;
     const int16_t *samples = (const int16_t *)data;
@@ -32,10 +32,10 @@ void process_audio_data(const uint8_t *data, uint32_t length) {
     for (uint32_t i = 0; i < sample_count; i++) {
         int16_t value = samples[i];
         if (value < split_frequency) {
-            // Subwoofer stream
+            // Send to subwoofer stream
             i2s_write(I2S_NUM_0, &value, sizeof(value), &bytes_written, portMAX_DELAY);
         } else {
-            // Other audio stream
+            // Send to other audio stream
             i2s_write(I2S_NUM_1, &value, sizeof(value), &bytes_written, portMAX_DELAY);
         }
     }
@@ -51,8 +51,8 @@ void setup() {
         .bits_per_sample = I2S_BITS_PER_SAMPLE_16BIT,
         .channel_format = I2S_CHANNEL_FMT_RIGHT_LEFT,
         .communication_format = I2S_COMM_FORMAT_STAND_MSB,
-        .dma_buf_count = 6,
-        .dma_buf_len = 32,
+        .dma_buf_count = 8,
+        .dma_buf_len = 64,
         .use_apll = false,
         .tx_desc_auto_clear = true,
         .fixed_mclk = 0
@@ -66,9 +66,9 @@ void setup() {
     i2s_driver_install(I2S_NUM_1, &i2s_config, 0, NULL);
     i2s_set_pin(I2S_NUM_1, &other_audio_pin_config);
 
-    // Set the stream reader callback
+    // Set the A2DP stream reader callback to process the incoming BLE audio
     a2dp_sink.set_stream_reader(process_audio_data);
-    a2dp_sink.start("ESP_SPEAKER");
+    a2dp_sink.start("ESP_BLE_XOver");
 }
 
 void loop() {
