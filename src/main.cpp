@@ -8,9 +8,9 @@ BluetoothA2DPSink a2dp_sink;
 
 // Define shared I2S pin configuration for stereo output (both amplifiers)
 i2s_pin_config_t stereo_pin_config = {
-    .bck_io_num = 14,  
-    .ws_io_num = 15,   
-    .data_out_num = 23  // Shared data line for left & right MAX98357
+    .bck_io_num = 14,  // MAX98357 BCLK pin
+    .ws_io_num = 15,   // MAX98357 LRC pin
+    .data_out_num = 23  // MAX98357 DIN pin (shared for left & right)
 };
 
 // Define I2S pin configuration for subwoofer output (separate MAX98357)
