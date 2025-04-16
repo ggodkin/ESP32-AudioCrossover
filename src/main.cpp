@@ -9,14 +9,14 @@ BluetoothA2DPSink a2dp_sink;
 // I2S configuration for first channel (Master)
 i2s_config_t i2s_cfg1 = {
     .mode = (i2s_mode_t)(I2S_MODE_MASTER | I2S_MODE_TX),
-    .sample_rate = 44100,  // Stable sample rate
-    .bits_per_sample = I2S_BITS_PER_SAMPLE_16BIT, // 16-bit precision
-    .channel_format = I2S_CHANNEL_FMT_RIGHT_LEFT, // Stereo interleaving
+    .sample_rate = 44100,  
+    .bits_per_sample = I2S_BITS_PER_SAMPLE_16BIT, 
+    .channel_format = I2S_CHANNEL_FMT_RIGHT_LEFT,
     .communication_format = I2S_COMM_FORMAT_STAND_I2S,
-    .intr_alloc_flags = ESP_INTR_FLAG_LOWMED, // Lower priority for stability
-    .dma_buf_count = 8, // Balanced buffer count
-    .dma_buf_len = 512, // Buffer length adjusted for performance
-    .use_apll = false,  // Disabled APLL to prevent instability
+    .intr_alloc_flags = ESP_INTR_FLAG_LOWMED,
+    .dma_buf_count = 8,  
+    .dma_buf_len = 512,
+    .use_apll = false,  
     .tx_desc_auto_clear = true
 };
 
@@ -30,7 +30,7 @@ i2s_config_t i2s_cfg2 = {
     .intr_alloc_flags = ESP_INTR_FLAG_LOWMED,
     .dma_buf_count = 8,
     .dma_buf_len = 512,
-    .use_apll = false, // Disabled APLL
+    .use_apll = false,
     .tx_desc_auto_clear = true
 };
 
@@ -86,21 +86,12 @@ void loop() {
     size_t bytes_read;
     uint8_t buffer[512];
 
-    // Read audio from Bluetooth to I2S0
-    esp_err_t read_result = i2s_read(I2S_NUM_0, buffer, sizeof(buffer), &bytes_read, portMAX_DELAY);
-    if (read_result != ESP_OK) {
-        Serial.printf("I2S Read error: %d\n", read_result);
-        return;
-    }
+    // No need to call i2s_read(); just send Bluetooth audio directly to I2S
+    bytes_read = sizeof(buffer);
+    memset(buffer, 0, sizeof(buffer));  // Initialize buffer to avoid unexpected noise
 
-    // Prevent crash: Validate buffer and bytes read
-    if (bytes_read > 0 && buffer != NULL) {
+    if (bytes_read > 0 && buffer != nullptr) {
         i2s_write(I2S_NUM_0, buffer, bytes_read, &bytes_read, portMAX_DELAY);
         i2s_write(I2S_NUM_1, buffer, bytes_read, &bytes_read, portMAX_DELAY);
-    } else {
-        // Zero out buffer when no signal to prevent clicks
-        memset(buffer, 0, sizeof(buffer));
-        i2s_write(I2S_NUM_0, buffer, sizeof(buffer), &bytes_read, portMAX_DELAY);
-        i2s_write(I2S_NUM_1, buffer, sizeof(buffer), &bytes_read, portMAX_DELAY);
     }
 }
