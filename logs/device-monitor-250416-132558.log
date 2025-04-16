@@ -1,0 +1,157 @@
+Guru Meditation Error: Core  0 panic'ed (StoreProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40091548  PS      : 0x00060730  A0      : 0x8011cb43  A1      : 0x3fff8bf0  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x00000130  A5      : 0x00000000  
+A6      : 0x400fca90  A7      : 0x00000013  A8      : 0x80126c80  A9      : 0x3fff8bc0  
+A10     : 0x3ffc87d0  A11     : 0x00000000  A12     : 0x3ffc87cc  A13     : 0x3ffc41c0  
+A14     : 0x00002aa6  A15     : 0x00000000  SAR     : 0x0000001f  EXCCAUSE: 0x0000001d  
+EXCVADDR: 0x00000000  LBEG    : 0x40091548  LEND    : 0x40091553  LCOUNT  : 0x00000012  
+
+
+Backtrace: 0x40091545:0x3fff8bf0 0x4011cb40:0x3fff8c00 0x400fca99:0x3fff8c20 0x40117f1f:0x3fff8c40
+
+
+
+
+ELF file SHA256: b8e83ec88e9f684e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing system with DMA-based I2S...
+E (35) I2S: register I2S object to platform failed
+[    62][E][BluetoothA2DPOutput.cpp:78] begin(): [BT_AV] i2s_driver_install failed
+Guru Meditation Error: Core  0 panic'ed (StoreProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40091548  PS      : 0x00060130  A0      : 0x8011cb43  A1      : 0x3fff8bf0  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x00000130  A5      : 0x00000000  
+A6      : 0x400fca90  A7      : 0x00000013  A8      : 0x80126c80  A9      : 0x3fff8bc0  
+A10     : 0x3ffc87d0  A11     : 0x00000000  A12     : 0x3ffc87cc  A13     : 0x3ffc41c0  
+A14     : 0x00002aa6  A15     : 0x00000000  SAR     : 0x0000001f  EXCCAUSE: 0x0000001d  
+EXCVADDR: 0x00000000  LBEG    : 0x40091548  LEND    : 0x40091553  LCOUNT  : 0x00000012  
+
+
+Backtrace: 0x40091545:0x3fff8bf0 0x4011cb40:0x3fff8c00 0x400fca99:0x3fff8c20 0x40117f1f:0x3fff8c40
+
+
+
+
+ELF file SHA256: b8e83ec88e9f684e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing system with DMA-based I2S...
+E (35) I2S: register I2S object to platform failed
+[    62][E][BluetoothA2DPOutput.cpp:78] begin(): [BT_AV] i2s_driver_install failed
+Guru Meditation Error: Core  0 panic'ed (StoreProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40091548  PS      : 0x00060130  A0      : 0x8011cb43  A1      : 0x3fff8bf0  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x00000130  A5      : 0x00000000  
+A6      : 0x400fca90  A7      : 0x00000013  A8      : 0x80126c80  A9      : 0x3fff8bc0  
+A10     : 0x3ffc87d0  A11     : 0x00000000  A12     : 0x3ffc87cc  A13     : 0x3ffc41c0  
+A14     : 0x00002aa6  A15     : 0x00000000  SAR     : 0x0000001f  EXCCAUSE: 0x0000001d  
+EXCVADDR: 0x00000000  LBEG    : 0x40091548  LEND    : 0x40091553  LCOUNT  : 0x00000012  
+
+
+Backtrace: 0x40091545:0x3fff8bf0 0x4011cb40:0x3fff8c00 0x400fca99:0x3fff8c20 0x40117f1f:0x3fff8c40
+
+
+
+
+ELF file SHA256: b8e83ec88e9f684e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing system with DMA-based I2S...
+E (35) I2S: register I2S object to platform failed
+[    62][E][BluetoothA2DPOutput.cpp:78] begin(): [BT_AV] i2s_driver_install failed
+Guru Meditation Error: Core  0 panic'ed (StoreProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40091548  PS      : 0x00060130  A0      : 0x8011cb43  A1      : 0x3fff8bf0  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x00000130  A5      : 0x00000000  
+A6      : 0x400fca90  A7      : 0x00000013  A8      : 0x80126c80  A9      : 0x3fff8bc0  
+A10     : 0x3ffc87d0  A11     : 0x00000000  A12     : 0x3ffc87cc  A13     : 0x3ffc41c0  
+A14     : 0x00002aa6  A15     : 0x00000000  SAR     : 0x0000001f  EXCCAUSE: 0x0000001d  
+EXCVADDR: 0x00000000  LBEG    : 0x40091548  LEND    : 0x40091553  LCOUNT  : 0x00000012  
+
+
+Backtrace: 0x40091545:0x3fff8bf0 0x4011cb40:0x3fff8c00 0x400fca99:0x3fff8c20 0x40117f1f:0x3fff8c40
+
+
+
+
+ELF file SHA256: b8e83ec88e9f684e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+Initializing system with DMA-based I2S...
+E (35) I2S: register I2S object to platform failed
+[    62][E][BluetoothA2DPOutput.cpp:78] begin(): [BT_AV] i2s_driver_install failed
+Guru Meditation Error: Core  0 panic'ed (StoreProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40091548  PS      : 0x00060130  A0      : 0x8011cb43  A1      : 0x3fff8bf0  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x00000130  A5      : 0x00000000  
+A6      : 0x400fca90  A7      : 0x00000013  A8      : 0x80126c80  A9      : 0x3fff8bc0  
+A10     : 0x3ffc87d0  A11     : 0x00000000  A12     : 0x3ffc87cc  A13     : 0x3ffc41c0  
+A14     : 0x00002aa6  A15     : 0x00000000  SAR     : 0x0000001f  EXCCAUSE: 0x0000001d  
+EXCVADDR: 0x00000000  LBEG    : 0x40091548  LEND    : 0x40091553  LCOUNT  : 0x00000012  
+
+
+Backtrace: 0x40091545:0x3fff8bf0 0x4011cb40:0x3fff8c00 0x400fca99:0x3fff8c20 0x40117f1f:0x3fff8c40
+
+
+
+
+ELF file SHA256: b8e83ec88e9f684e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4

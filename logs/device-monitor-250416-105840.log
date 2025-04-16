@@ -1,0 +1,1117 @@
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060030  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060030  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060030  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(1961): I2S buffer length at most 1024 and more than 8
+[E] I2SESP32.h : 216 - begin - i2s_driver_install
+Guru Meditation Error: Core  1 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x400daf2c  PS      : 0x00060e30  A0      : 0x800d3c3e  A1      : 0x3ffcb560  
+A2      : 0x00000000  A3      : 0x3ffcb5ac  A4      : 0x00000000  A5      : 0x0000000f  
+A6      : 0x00000000  A7      : 0x00000000  A8      : 0x800daecc  A9      : 0x00000002  
+A10     : 0x0001fe1d  A11     : 0x00000000  A12     : 0xffffffff  A13     : 0x3ffcb1d0  
+A14     : 0x00000015  A15     : 0x3ffcb3d0  SAR     : 0x00000017  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000003c  LBEG    : 0x40092679  LEND    : 0x40092689  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400daf29:0x3ffcb560 0x400d3c3b:0x3ffcb590 0x400d3e95:0x3ffcb610 0x400d437a:0x3ffcb680 0x400d50b7:0x3ffcb6f0 0x400d98e6:0x3ffcb800
+
+
+
+
+ELF file SHA256: 365dd9c237bd328e
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+E (32) I2S: i2s_driver_install(19
